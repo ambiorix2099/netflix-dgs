@@ -1,0 +1,13 @@
+type Query {
+    weatherByCity(city: String!): WeatherResponse
+}
+
+type WeatherResponse {
+    temperature: Temperature
+}
+
+type Temperature {
+    kelvin: Float
+    celsius: Float
+    fahrenheit: Float
+}
