@@ -64,6 +64,7 @@
     </dependencies>
   </dependencyManagement>
   <build>
+    <finalName>netflix-dgs</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
